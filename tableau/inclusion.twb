@@ -1,0 +1,2375 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0420.1112                               -->
+<workbook original-version='18.1' source-build='2021.1.1 (20211.21.0420.1112)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='title'>
+      <format attr='font-size' value='12' />
+    </style-rule>
+    <style-rule element='all'>
+      <format attr='color' value='#000000' />
+      <format attr='font-family' value='Roboto' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Total_Response_Count' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='24.'>
+        <calculation class='tableau' formula='24.' />
+      </column>
+    </datasource>
+    <datasource caption='inclusion_clean_final' inline='true' name='federated.11bte4p14cig9y11xu4fg09l81mz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='inclusion_clean_final' name='textscan.0uzunlw1cmvvb3151ajlw05qru6d'>
+            <connection class='textscan' directory='/Users/joanieweaver/Desktop/gender_ideal/code' filename='inclusion_clean_final.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Q32]' />
+            <value name='[Q33]' />
+            <value name='[Q34]' />
+            <value name='[Q35]' />
+            <value name='[Q36 A]' />
+            <value name='[Q36 B]' />
+            <value name='[Q36 C]' />
+            <value name='[Q36 D]' />
+            <value name='[Q36 E]' />
+            <value name='[Q36 F]' />
+            <value name='[Q36 G]' />
+            <value name='[Q36 H]' />
+            <value name='[Q36 I]' />
+            <value name='[Q36 J]' />
+            <value name='[Q36 K]' />
+            <value name='[Q36 L]' />
+            <value name='[Q37 A]' />
+            <value name='[Q37 B]' />
+            <value name='[Q37 C]' />
+            <value name='[Q37 D]' />
+            <value name='[Q37 E]' />
+            <value name='[Q37 F]' />
+            <value name='[Q37 G]' />
+            <value name='[Q38 A]' />
+            <value name='[Q38 B]' />
+            <value name='[Q38 C]' />
+            <value name='[Q38 D]' />
+            <value name='[Q38 E]' />
+            <value name='[Q38 F]' />
+            <value name='[Q38 H]' />
+            <value name='[Q38 I]' />
+            <value name='[Q38 Other]' />
+            <value name='[Q39]' />
+            <value name='[Q40]' />
+            <value name='[Q41]' />
+            <value name='[Q42]' />
+            <value name='[Q43]' />
+            <value name='[Q44]' />
+            <value name='[Q45]' />
+            <value name='[Q46 A]' />
+            <value name='[Q46 B]' />
+            <value name='[Q46 C]' />
+            <value name='[Q46 D]' />
+            <value name='[Q46 F]' />
+            <value name='[Q46 Other]' />
+            <value name='[Q47]' />
+            <value name='[Q48 A]' />
+            <value name='[Q48 B]' />
+            <value name='[Q48 C]' />
+            <value name='[Q48 D]' />
+            <value name='[Q48 F]' />
+            <value name='[Q48 Other]' />
+            <value name='[Q49 A]' />
+            <value name='[Q49 B]' />
+            <value name='[Q49 C]' />
+            <value name='[Q49 D]' />
+            <value name='[Q49 Other]' />
+            <value name='[Q50 A]' />
+            <value name='[Q50 B]' />
+            <value name='[Q50 C]' />
+            <value name='[Q50 D]' />
+            <value name='[Q50 E]' />
+            <value name='[Q50 Other]' />
+            <value name='[Q51]' />
+            <value name='[Q52]' />
+            <value name='[Q53]' />
+            <value name='[Q54]' />
+            <value name='[Q55]' />
+            <value name='[Q56 A]' />
+            <value name='[Q56 B]' />
+            <value name='[Q56 C]' />
+            <value name='[Q56 D]' />
+            <value name='[Q56 E]' />
+            <value name='[Q56 F]' />
+            <value name='[Q56 G]' />
+            <value name='[Q56 H]' />
+            <value name='[Q56 I]' />
+            <value name='[Q56 J]' />
+            <value name='[Q56 K]' />
+            <value name='[Q56 L]' />
+            <value name='[Q57 A]' />
+            <value name='[Q57 B]' />
+            <value name='[Q57 C]' />
+            <value name='[Q57 D]' />
+            <value name='[Q57 E]' />
+            <value name='[Q57 F]' />
+            <value name='[Q57 G]' />
+            <value name='[Q58]' />
+            <value name='[Q59]' />
+            <value name='[Q60]' />
+            <value name='[Q61]' />
+            <value name='[Q62]' />
+            <value name='[Q63]' />
+            <value name='[Q64]' />
+            <value name='[Q65]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[inclusion_clean_final.csv].[Q32]' />
+              <field name='[inclusion_clean_final.csv].[Q33]' />
+              <field name='[inclusion_clean_final.csv].[Q34]' />
+              <field name='[inclusion_clean_final.csv].[Q35]' />
+              <field name='[inclusion_clean_final.csv].[Q36_A]' />
+              <field name='[inclusion_clean_final.csv].[Q36_B]' />
+              <field name='[inclusion_clean_final.csv].[Q36_C]' />
+              <field name='[inclusion_clean_final.csv].[Q36_D]' />
+              <field name='[inclusion_clean_final.csv].[Q36_E]' />
+              <field name='[inclusion_clean_final.csv].[Q36_F]' />
+              <field name='[inclusion_clean_final.csv].[Q36_G]' />
+              <field name='[inclusion_clean_final.csv].[Q36_H]' />
+              <field name='[inclusion_clean_final.csv].[Q36_I]' />
+              <field name='[inclusion_clean_final.csv].[Q36_J]' />
+              <field name='[inclusion_clean_final.csv].[Q36_K]' />
+              <field name='[inclusion_clean_final.csv].[Q36_L]' />
+              <field name='[inclusion_clean_final.csv].[Q37_A]' />
+              <field name='[inclusion_clean_final.csv].[Q37_B]' />
+              <field name='[inclusion_clean_final.csv].[Q37_C]' />
+              <field name='[inclusion_clean_final.csv].[Q37_D]' />
+              <field name='[inclusion_clean_final.csv].[Q37_E]' />
+              <field name='[inclusion_clean_final.csv].[Q37_F]' />
+              <field name='[inclusion_clean_final.csv].[Q37_G]' />
+              <field name='[inclusion_clean_final.csv].[Q38_A]' />
+              <field name='[inclusion_clean_final.csv].[Q38_B]' />
+              <field name='[inclusion_clean_final.csv].[Q38_C]' />
+              <field name='[inclusion_clean_final.csv].[Q38_D]' />
+              <field name='[inclusion_clean_final.csv].[Q38_E]' />
+              <field name='[inclusion_clean_final.csv].[Q38_F]' />
+              <field name='[inclusion_clean_final.csv].[Q38_H]' />
+              <field name='[inclusion_clean_final.csv].[Q38_I]' />
+              <field name='[inclusion_clean_final.csv].[Q38_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q39]' />
+              <field name='[inclusion_clean_final.csv].[Q40]' />
+              <field name='[inclusion_clean_final.csv].[Q41]' />
+              <field name='[inclusion_clean_final.csv].[Q42]' />
+              <field name='[inclusion_clean_final.csv].[Q43]' />
+              <field name='[inclusion_clean_final.csv].[Q44]' />
+              <field name='[inclusion_clean_final.csv].[Q45]' />
+              <field name='[inclusion_clean_final.csv].[Q46_A]' />
+              <field name='[inclusion_clean_final.csv].[Q46_B]' />
+              <field name='[inclusion_clean_final.csv].[Q46_C]' />
+              <field name='[inclusion_clean_final.csv].[Q46_D]' />
+              <field name='[inclusion_clean_final.csv].[Q46_F]' />
+              <field name='[inclusion_clean_final.csv].[Q46_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q47]' />
+              <field name='[inclusion_clean_final.csv].[Q48_A]' />
+              <field name='[inclusion_clean_final.csv].[Q48_B]' />
+              <field name='[inclusion_clean_final.csv].[Q48_C]' />
+              <field name='[inclusion_clean_final.csv].[Q48_D]' />
+              <field name='[inclusion_clean_final.csv].[Q48_F]' />
+              <field name='[inclusion_clean_final.csv].[Q48_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q49_A]' />
+              <field name='[inclusion_clean_final.csv].[Q49_B]' />
+              <field name='[inclusion_clean_final.csv].[Q49_C]' />
+              <field name='[inclusion_clean_final.csv].[Q49_D]' />
+              <field name='[inclusion_clean_final.csv].[Q49_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q50_A]' />
+              <field name='[inclusion_clean_final.csv].[Q50_B]' />
+              <field name='[inclusion_clean_final.csv].[Q50_C]' />
+              <field name='[inclusion_clean_final.csv].[Q50_D]' />
+              <field name='[inclusion_clean_final.csv].[Q50_E]' />
+              <field name='[inclusion_clean_final.csv].[Q50_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q51]' />
+              <field name='[inclusion_clean_final.csv].[Q52]' />
+              <field name='[inclusion_clean_final.csv].[Q53]' />
+              <field name='[inclusion_clean_final.csv].[Q54]' />
+              <field name='[inclusion_clean_final.csv].[Q55]' />
+              <field name='[inclusion_clean_final.csv].[Q56_A]' />
+              <field name='[inclusion_clean_final.csv].[Q56_B]' />
+              <field name='[inclusion_clean_final.csv].[Q56_C]' />
+              <field name='[inclusion_clean_final.csv].[Q56_D]' />
+              <field name='[inclusion_clean_final.csv].[Q56_E]' />
+              <field name='[inclusion_clean_final.csv].[Q56_F]' />
+              <field name='[inclusion_clean_final.csv].[Q56_G]' />
+              <field name='[inclusion_clean_final.csv].[Q56_H]' />
+              <field name='[inclusion_clean_final.csv].[Q56_I]' />
+              <field name='[inclusion_clean_final.csv].[Q56_J]' />
+              <field name='[inclusion_clean_final.csv].[Q56_K]' />
+              <field name='[inclusion_clean_final.csv].[Q56_L]' />
+              <field name='[inclusion_clean_final.csv].[Q57_A]' />
+              <field name='[inclusion_clean_final.csv].[Q57_B]' />
+              <field name='[inclusion_clean_final.csv].[Q57_C]' />
+              <field name='[inclusion_clean_final.csv].[Q57_D]' />
+              <field name='[inclusion_clean_final.csv].[Q57_E]' />
+              <field name='[inclusion_clean_final.csv].[Q57_F]' />
+              <field name='[inclusion_clean_final.csv].[Q57_G]' />
+              <field name='[inclusion_clean_final.csv].[Q58]' />
+              <field name='[inclusion_clean_final.csv].[Q59]' />
+              <field name='[inclusion_clean_final.csv].[Q60]' />
+              <field name='[inclusion_clean_final.csv].[Q61]' />
+              <field name='[inclusion_clean_final.csv].[Q62]' />
+              <field name='[inclusion_clean_final.csv].[Q63]' />
+              <field name='[inclusion_clean_final.csv].[Q64]' />
+              <field name='[inclusion_clean_final.csv].[Q65]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0uzunlw1cmvvb3151ajlw05qru6d' name='inclusion_clean_final.csv' table='[inclusion_clean_final#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Q32' ordinal='1' />
+              <column datatype='integer' name='Q33' ordinal='2' />
+              <column datatype='string' name='Q34' ordinal='3' />
+              <column datatype='string' name='Q35' ordinal='4' />
+              <column datatype='string' name='Q36_A' ordinal='5' />
+              <column datatype='string' name='Q36_B' ordinal='6' />
+              <column datatype='string' name='Q36_C' ordinal='7' />
+              <column datatype='string' name='Q36_D' ordinal='8' />
+              <column datatype='string' name='Q36_E' ordinal='9' />
+              <column datatype='string' name='Q36_F' ordinal='10' />
+              <column datatype='string' name='Q36_G' ordinal='11' />
+              <column datatype='string' name='Q36_H' ordinal='12' />
+              <column datatype='string' name='Q36_I' ordinal='13' />
+              <column datatype='string' name='Q36_J' ordinal='14' />
+              <column datatype='string' name='Q37_A' ordinal='15' />
+              <column datatype='string' name='Q37_B' ordinal='16' />
+              <column datatype='string' name='Q37_C' ordinal='17' />
+              <column datatype='string' name='Q37_D' ordinal='18' />
+              <column datatype='string' name='Q37_E' ordinal='19' />
+              <column datatype='string' name='Q38_A' ordinal='20' />
+              <column datatype='string' name='Q38_B' ordinal='21' />
+              <column datatype='string' name='Q38_C' ordinal='22' />
+              <column datatype='string' name='Q38_D' ordinal='23' />
+              <column datatype='string' name='Q38_E' ordinal='24' />
+              <column datatype='string' name='Q38_F' ordinal='25' />
+              <column datatype='string' name='Q38_Other' ordinal='26' />
+              <column datatype='string' name='Q39' ordinal='27' />
+              <column datatype='string' name='Q40' ordinal='28' />
+              <column datatype='integer' name='Q41' ordinal='29' />
+              <column datatype='string' name='Q42' ordinal='30' />
+              <column datatype='integer' name='Q43' ordinal='31' />
+              <column datatype='integer' name='Q44' ordinal='32' />
+              <column datatype='integer' name='Q45' ordinal='33' />
+              <column datatype='string' name='Q46_A' ordinal='34' />
+              <column datatype='string' name='Q46_B' ordinal='35' />
+              <column datatype='string' name='Q46_C' ordinal='36' />
+              <column datatype='string' name='Q46_D' ordinal='37' />
+              <column datatype='string' name='Q46_Other' ordinal='38' />
+              <column datatype='real' name='Q47' ordinal='39' />
+              <column datatype='string' name='Q48_A' ordinal='40' />
+              <column datatype='string' name='Q48_B' ordinal='41' />
+              <column datatype='string' name='Q48_C' ordinal='42' />
+              <column datatype='string' name='Q48_D' ordinal='43' />
+              <column datatype='string' name='Q48_Other' ordinal='44' />
+              <column datatype='string' name='Q49_A' ordinal='45' />
+              <column datatype='string' name='Q49_B' ordinal='46' />
+              <column datatype='string' name='Q49_C' ordinal='47' />
+              <column datatype='string' name='Q49_D' ordinal='48' />
+              <column datatype='string' name='Q49_Other' ordinal='49' />
+              <column datatype='string' name='Q50_A' ordinal='50' />
+              <column datatype='string' name='Q50_B' ordinal='51' />
+              <column datatype='string' name='Q50_C' ordinal='52' />
+              <column datatype='string' name='Q50_D' ordinal='53' />
+              <column datatype='string' name='Q50_E' ordinal='54' />
+              <column datatype='string' name='Q50_Other' ordinal='55' />
+              <column datatype='string' name='Q51' ordinal='56' />
+              <column datatype='string' name='Q52' ordinal='57' />
+              <column datatype='string' name='Q53' ordinal='58' />
+              <column datatype='real' name='Q54' ordinal='59' />
+              <column datatype='string' name='Q55' ordinal='60' />
+              <column datatype='string' name='Q56_A' ordinal='61' />
+              <column datatype='string' name='Q56_B' ordinal='62' />
+              <column datatype='string' name='Q56_C' ordinal='63' />
+              <column datatype='string' name='Q56_D' ordinal='64' />
+              <column datatype='string' name='Q56_E' ordinal='65' />
+              <column datatype='string' name='Q56_F' ordinal='66' />
+              <column datatype='string' name='Q56_G' ordinal='67' />
+              <column datatype='string' name='Q56_H' ordinal='68' />
+              <column datatype='string' name='Q56_I' ordinal='69' />
+              <column datatype='string' name='Q56_J' ordinal='70' />
+              <column datatype='string' name='Q56_K' ordinal='71' />
+              <column datatype='string' name='Q57_A' ordinal='72' />
+              <column datatype='string' name='Q57_B' ordinal='73' />
+              <column datatype='string' name='Q57_C' ordinal='74' />
+              <column datatype='string' name='Q57_D' ordinal='75' />
+              <column datatype='string' name='Q57_E' ordinal='76' />
+              <column datatype='string' name='Q57_F' ordinal='77' />
+              <column datatype='string' name='Q58' ordinal='78' />
+              <column datatype='real' name='Q59' ordinal='79' />
+              <column datatype='real' name='Q60' ordinal='80' />
+              <column datatype='integer' name='Q61' ordinal='81' />
+              <column datatype='string' name='Q62' ordinal='82' />
+              <column datatype='string' name='Q63' ordinal='83' />
+              <column datatype='string' name='Q64' ordinal='84' />
+              <column datatype='string' name='Q65' ordinal='85' />
+              <column datatype='string' name='Organization' ordinal='86' />
+              <column datatype='string' name='benchmark_group' ordinal='87' />
+              <column datatype='string' name='number_of_employees' ordinal='88' />
+              <column datatype='string' name='number_of_years' ordinal='89' />
+              <column datatype='string' name='workforce' ordinal='90' />
+              <column datatype='string' name='Q36_K' ordinal='91' />
+              <column datatype='string' name='Q36_L' ordinal='92' />
+              <column datatype='string' name='Q37_F' ordinal='93' />
+              <column datatype='string' name='Q37_G' ordinal='94' />
+              <column datatype='string' name='Q38_H' ordinal='95' />
+              <column datatype='string' name='Q38_I' ordinal='96' />
+              <column datatype='string' name='Q46_F' ordinal='97' />
+              <column datatype='string' name='Q48_F' ordinal='98' />
+              <column datatype='string' name='Q56_L' ordinal='99' />
+              <column datatype='string' name='Q57_G' ordinal='100' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Q32]' />
+            <value name='[Q33]' />
+            <value name='[Q34]' />
+            <value name='[Q35]' />
+            <value name='[Q36 A]' />
+            <value name='[Q36 B]' />
+            <value name='[Q36 C]' />
+            <value name='[Q36 D]' />
+            <value name='[Q36 E]' />
+            <value name='[Q36 F]' />
+            <value name='[Q36 G]' />
+            <value name='[Q36 H]' />
+            <value name='[Q36 I]' />
+            <value name='[Q36 J]' />
+            <value name='[Q36 K]' />
+            <value name='[Q36 L]' />
+            <value name='[Q37 A]' />
+            <value name='[Q37 B]' />
+            <value name='[Q37 C]' />
+            <value name='[Q37 D]' />
+            <value name='[Q37 E]' />
+            <value name='[Q37 F]' />
+            <value name='[Q37 G]' />
+            <value name='[Q38 A]' />
+            <value name='[Q38 B]' />
+            <value name='[Q38 C]' />
+            <value name='[Q38 D]' />
+            <value name='[Q38 E]' />
+            <value name='[Q38 F]' />
+            <value name='[Q38 H]' />
+            <value name='[Q38 I]' />
+            <value name='[Q38 Other]' />
+            <value name='[Q39]' />
+            <value name='[Q40]' />
+            <value name='[Q41]' />
+            <value name='[Q42]' />
+            <value name='[Q43]' />
+            <value name='[Q44]' />
+            <value name='[Q45]' />
+            <value name='[Q46 A]' />
+            <value name='[Q46 B]' />
+            <value name='[Q46 C]' />
+            <value name='[Q46 D]' />
+            <value name='[Q46 F]' />
+            <value name='[Q46 Other]' />
+            <value name='[Q47]' />
+            <value name='[Q48 A]' />
+            <value name='[Q48 B]' />
+            <value name='[Q48 C]' />
+            <value name='[Q48 D]' />
+            <value name='[Q48 F]' />
+            <value name='[Q48 Other]' />
+            <value name='[Q49 A]' />
+            <value name='[Q49 B]' />
+            <value name='[Q49 C]' />
+            <value name='[Q49 D]' />
+            <value name='[Q49 Other]' />
+            <value name='[Q50 A]' />
+            <value name='[Q50 B]' />
+            <value name='[Q50 C]' />
+            <value name='[Q50 D]' />
+            <value name='[Q50 E]' />
+            <value name='[Q50 Other]' />
+            <value name='[Q51]' />
+            <value name='[Q52]' />
+            <value name='[Q53]' />
+            <value name='[Q54]' />
+            <value name='[Q55]' />
+            <value name='[Q56 A]' />
+            <value name='[Q56 B]' />
+            <value name='[Q56 C]' />
+            <value name='[Q56 D]' />
+            <value name='[Q56 E]' />
+            <value name='[Q56 F]' />
+            <value name='[Q56 G]' />
+            <value name='[Q56 H]' />
+            <value name='[Q56 I]' />
+            <value name='[Q56 J]' />
+            <value name='[Q56 K]' />
+            <value name='[Q56 L]' />
+            <value name='[Q57 A]' />
+            <value name='[Q57 B]' />
+            <value name='[Q57 C]' />
+            <value name='[Q57 D]' />
+            <value name='[Q57 E]' />
+            <value name='[Q57 F]' />
+            <value name='[Q57 G]' />
+            <value name='[Q58]' />
+            <value name='[Q59]' />
+            <value name='[Q60]' />
+            <value name='[Q61]' />
+            <value name='[Q62]' />
+            <value name='[Q63]' />
+            <value name='[Q64]' />
+            <value name='[Q65]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[inclusion_clean_final.csv].[Q32]' />
+              <field name='[inclusion_clean_final.csv].[Q33]' />
+              <field name='[inclusion_clean_final.csv].[Q34]' />
+              <field name='[inclusion_clean_final.csv].[Q35]' />
+              <field name='[inclusion_clean_final.csv].[Q36_A]' />
+              <field name='[inclusion_clean_final.csv].[Q36_B]' />
+              <field name='[inclusion_clean_final.csv].[Q36_C]' />
+              <field name='[inclusion_clean_final.csv].[Q36_D]' />
+              <field name='[inclusion_clean_final.csv].[Q36_E]' />
+              <field name='[inclusion_clean_final.csv].[Q36_F]' />
+              <field name='[inclusion_clean_final.csv].[Q36_G]' />
+              <field name='[inclusion_clean_final.csv].[Q36_H]' />
+              <field name='[inclusion_clean_final.csv].[Q36_I]' />
+              <field name='[inclusion_clean_final.csv].[Q36_J]' />
+              <field name='[inclusion_clean_final.csv].[Q36_K]' />
+              <field name='[inclusion_clean_final.csv].[Q36_L]' />
+              <field name='[inclusion_clean_final.csv].[Q37_A]' />
+              <field name='[inclusion_clean_final.csv].[Q37_B]' />
+              <field name='[inclusion_clean_final.csv].[Q37_C]' />
+              <field name='[inclusion_clean_final.csv].[Q37_D]' />
+              <field name='[inclusion_clean_final.csv].[Q37_E]' />
+              <field name='[inclusion_clean_final.csv].[Q37_F]' />
+              <field name='[inclusion_clean_final.csv].[Q37_G]' />
+              <field name='[inclusion_clean_final.csv].[Q38_A]' />
+              <field name='[inclusion_clean_final.csv].[Q38_B]' />
+              <field name='[inclusion_clean_final.csv].[Q38_C]' />
+              <field name='[inclusion_clean_final.csv].[Q38_D]' />
+              <field name='[inclusion_clean_final.csv].[Q38_E]' />
+              <field name='[inclusion_clean_final.csv].[Q38_F]' />
+              <field name='[inclusion_clean_final.csv].[Q38_H]' />
+              <field name='[inclusion_clean_final.csv].[Q38_I]' />
+              <field name='[inclusion_clean_final.csv].[Q38_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q39]' />
+              <field name='[inclusion_clean_final.csv].[Q40]' />
+              <field name='[inclusion_clean_final.csv].[Q41]' />
+              <field name='[inclusion_clean_final.csv].[Q42]' />
+              <field name='[inclusion_clean_final.csv].[Q43]' />
+              <field name='[inclusion_clean_final.csv].[Q44]' />
+              <field name='[inclusion_clean_final.csv].[Q45]' />
+              <field name='[inclusion_clean_final.csv].[Q46_A]' />
+              <field name='[inclusion_clean_final.csv].[Q46_B]' />
+              <field name='[inclusion_clean_final.csv].[Q46_C]' />
+              <field name='[inclusion_clean_final.csv].[Q46_D]' />
+              <field name='[inclusion_clean_final.csv].[Q46_F]' />
+              <field name='[inclusion_clean_final.csv].[Q46_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q47]' />
+              <field name='[inclusion_clean_final.csv].[Q48_A]' />
+              <field name='[inclusion_clean_final.csv].[Q48_B]' />
+              <field name='[inclusion_clean_final.csv].[Q48_C]' />
+              <field name='[inclusion_clean_final.csv].[Q48_D]' />
+              <field name='[inclusion_clean_final.csv].[Q48_F]' />
+              <field name='[inclusion_clean_final.csv].[Q48_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q49_A]' />
+              <field name='[inclusion_clean_final.csv].[Q49_B]' />
+              <field name='[inclusion_clean_final.csv].[Q49_C]' />
+              <field name='[inclusion_clean_final.csv].[Q49_D]' />
+              <field name='[inclusion_clean_final.csv].[Q49_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q50_A]' />
+              <field name='[inclusion_clean_final.csv].[Q50_B]' />
+              <field name='[inclusion_clean_final.csv].[Q50_C]' />
+              <field name='[inclusion_clean_final.csv].[Q50_D]' />
+              <field name='[inclusion_clean_final.csv].[Q50_E]' />
+              <field name='[inclusion_clean_final.csv].[Q50_Other]' />
+              <field name='[inclusion_clean_final.csv].[Q51]' />
+              <field name='[inclusion_clean_final.csv].[Q52]' />
+              <field name='[inclusion_clean_final.csv].[Q53]' />
+              <field name='[inclusion_clean_final.csv].[Q54]' />
+              <field name='[inclusion_clean_final.csv].[Q55]' />
+              <field name='[inclusion_clean_final.csv].[Q56_A]' />
+              <field name='[inclusion_clean_final.csv].[Q56_B]' />
+              <field name='[inclusion_clean_final.csv].[Q56_C]' />
+              <field name='[inclusion_clean_final.csv].[Q56_D]' />
+              <field name='[inclusion_clean_final.csv].[Q56_E]' />
+              <field name='[inclusion_clean_final.csv].[Q56_F]' />
+              <field name='[inclusion_clean_final.csv].[Q56_G]' />
+              <field name='[inclusion_clean_final.csv].[Q56_H]' />
+              <field name='[inclusion_clean_final.csv].[Q56_I]' />
+              <field name='[inclusion_clean_final.csv].[Q56_J]' />
+              <field name='[inclusion_clean_final.csv].[Q56_K]' />
+              <field name='[inclusion_clean_final.csv].[Q56_L]' />
+              <field name='[inclusion_clean_final.csv].[Q57_A]' />
+              <field name='[inclusion_clean_final.csv].[Q57_B]' />
+              <field name='[inclusion_clean_final.csv].[Q57_C]' />
+              <field name='[inclusion_clean_final.csv].[Q57_D]' />
+              <field name='[inclusion_clean_final.csv].[Q57_E]' />
+              <field name='[inclusion_clean_final.csv].[Q57_F]' />
+              <field name='[inclusion_clean_final.csv].[Q57_G]' />
+              <field name='[inclusion_clean_final.csv].[Q58]' />
+              <field name='[inclusion_clean_final.csv].[Q59]' />
+              <field name='[inclusion_clean_final.csv].[Q60]' />
+              <field name='[inclusion_clean_final.csv].[Q61]' />
+              <field name='[inclusion_clean_final.csv].[Q62]' />
+              <field name='[inclusion_clean_final.csv].[Q63]' />
+              <field name='[inclusion_clean_final.csv].[Q64]' />
+              <field name='[inclusion_clean_final.csv].[Q65]' />
+            </group>
+          </groups>
+          <relation connection='textscan.0uzunlw1cmvvb3151ajlw05qru6d' name='inclusion_clean_final.csv' table='[inclusion_clean_final#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='Q32' ordinal='1' />
+              <column datatype='integer' name='Q33' ordinal='2' />
+              <column datatype='string' name='Q34' ordinal='3' />
+              <column datatype='string' name='Q35' ordinal='4' />
+              <column datatype='string' name='Q36_A' ordinal='5' />
+              <column datatype='string' name='Q36_B' ordinal='6' />
+              <column datatype='string' name='Q36_C' ordinal='7' />
+              <column datatype='string' name='Q36_D' ordinal='8' />
+              <column datatype='string' name='Q36_E' ordinal='9' />
+              <column datatype='string' name='Q36_F' ordinal='10' />
+              <column datatype='string' name='Q36_G' ordinal='11' />
+              <column datatype='string' name='Q36_H' ordinal='12' />
+              <column datatype='string' name='Q36_I' ordinal='13' />
+              <column datatype='string' name='Q36_J' ordinal='14' />
+              <column datatype='string' name='Q37_A' ordinal='15' />
+              <column datatype='string' name='Q37_B' ordinal='16' />
+              <column datatype='string' name='Q37_C' ordinal='17' />
+              <column datatype='string' name='Q37_D' ordinal='18' />
+              <column datatype='string' name='Q37_E' ordinal='19' />
+              <column datatype='string' name='Q38_A' ordinal='20' />
+              <column datatype='string' name='Q38_B' ordinal='21' />
+              <column datatype='string' name='Q38_C' ordinal='22' />
+              <column datatype='string' name='Q38_D' ordinal='23' />
+              <column datatype='string' name='Q38_E' ordinal='24' />
+              <column datatype='string' name='Q38_F' ordinal='25' />
+              <column datatype='string' name='Q38_Other' ordinal='26' />
+              <column datatype='string' name='Q39' ordinal='27' />
+              <column datatype='string' name='Q40' ordinal='28' />
+              <column datatype='integer' name='Q41' ordinal='29' />
+              <column datatype='string' name='Q42' ordinal='30' />
+              <column datatype='integer' name='Q43' ordinal='31' />
+              <column datatype='integer' name='Q44' ordinal='32' />
+              <column datatype='integer' name='Q45' ordinal='33' />
+              <column datatype='string' name='Q46_A' ordinal='34' />
+              <column datatype='string' name='Q46_B' ordinal='35' />
+              <column datatype='string' name='Q46_C' ordinal='36' />
+              <column datatype='string' name='Q46_D' ordinal='37' />
+              <column datatype='string' name='Q46_Other' ordinal='38' />
+              <column datatype='real' name='Q47' ordinal='39' />
+              <column datatype='string' name='Q48_A' ordinal='40' />
+              <column datatype='string' name='Q48_B' ordinal='41' />
+              <column datatype='string' name='Q48_C' ordinal='42' />
+              <column datatype='string' name='Q48_D' ordinal='43' />
+              <column datatype='string' name='Q48_Other' ordinal='44' />
+              <column datatype='string' name='Q49_A' ordinal='45' />
+              <column datatype='string' name='Q49_B' ordinal='46' />
+              <column datatype='string' name='Q49_C' ordinal='47' />
+              <column datatype='string' name='Q49_D' ordinal='48' />
+              <column datatype='string' name='Q49_Other' ordinal='49' />
+              <column datatype='string' name='Q50_A' ordinal='50' />
+              <column datatype='string' name='Q50_B' ordinal='51' />
+              <column datatype='string' name='Q50_C' ordinal='52' />
+              <column datatype='string' name='Q50_D' ordinal='53' />
+              <column datatype='string' name='Q50_E' ordinal='54' />
+              <column datatype='string' name='Q50_Other' ordinal='55' />
+              <column datatype='string' name='Q51' ordinal='56' />
+              <column datatype='string' name='Q52' ordinal='57' />
+              <column datatype='string' name='Q53' ordinal='58' />
+              <column datatype='real' name='Q54' ordinal='59' />
+              <column datatype='string' name='Q55' ordinal='60' />
+              <column datatype='string' name='Q56_A' ordinal='61' />
+              <column datatype='string' name='Q56_B' ordinal='62' />
+              <column datatype='string' name='Q56_C' ordinal='63' />
+              <column datatype='string' name='Q56_D' ordinal='64' />
+              <column datatype='string' name='Q56_E' ordinal='65' />
+              <column datatype='string' name='Q56_F' ordinal='66' />
+              <column datatype='string' name='Q56_G' ordinal='67' />
+              <column datatype='string' name='Q56_H' ordinal='68' />
+              <column datatype='string' name='Q56_I' ordinal='69' />
+              <column datatype='string' name='Q56_J' ordinal='70' />
+              <column datatype='string' name='Q56_K' ordinal='71' />
+              <column datatype='string' name='Q57_A' ordinal='72' />
+              <column datatype='string' name='Q57_B' ordinal='73' />
+              <column datatype='string' name='Q57_C' ordinal='74' />
+              <column datatype='string' name='Q57_D' ordinal='75' />
+              <column datatype='string' name='Q57_E' ordinal='76' />
+              <column datatype='string' name='Q57_F' ordinal='77' />
+              <column datatype='string' name='Q58' ordinal='78' />
+              <column datatype='real' name='Q59' ordinal='79' />
+              <column datatype='real' name='Q60' ordinal='80' />
+              <column datatype='integer' name='Q61' ordinal='81' />
+              <column datatype='string' name='Q62' ordinal='82' />
+              <column datatype='string' name='Q63' ordinal='83' />
+              <column datatype='string' name='Q64' ordinal='84' />
+              <column datatype='string' name='Q65' ordinal='85' />
+              <column datatype='string' name='Organization' ordinal='86' />
+              <column datatype='string' name='benchmark_group' ordinal='87' />
+              <column datatype='string' name='number_of_employees' ordinal='88' />
+              <column datatype='string' name='number_of_years' ordinal='89' />
+              <column datatype='string' name='workforce' ordinal='90' />
+              <column datatype='string' name='Q36_K' ordinal='91' />
+              <column datatype='string' name='Q36_L' ordinal='92' />
+              <column datatype='string' name='Q37_F' ordinal='93' />
+              <column datatype='string' name='Q37_G' ordinal='94' />
+              <column datatype='string' name='Q38_H' ordinal='95' />
+              <column datatype='string' name='Q38_I' ordinal='96' />
+              <column datatype='string' name='Q46_F' ordinal='97' />
+              <column datatype='string' name='Q48_F' ordinal='98' />
+              <column datatype='string' name='Q56_L' ordinal='99' />
+              <column datatype='string' name='Q57_G' ordinal='100' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organization</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Organization]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>Organization</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>benchmark_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[benchmark_group]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>benchmark_group</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_employees</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[number_of_employees]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>number_of_employees</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_years</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[number_of_years]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>number_of_years</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workforce</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[workforce]</local-name>
+            <parent-name>[inclusion_clean_final.csv]</parent-name>
+            <remote-alias>workforce</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='SingleChoicePerc' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Pivot Field Values]) / TOTAL(COUNT([Pivot Field Values]))'>
+          <table-calc ordering-type='Columns' />
+        </calculation>
+      </column>
+      <column caption='Responses (Numeric)' datatype='real' datatype-customized='true' name='[Calculation_1320891744770813952]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='FLOAT([Pivot Field Values])' />
+      </column>
+      <column caption='Quarterly' datatype='integer' name='[Calculation_1320891744773824515]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF FALSE THEN 0 ELSE NULL END' />
+      </column>
+      <column caption='MultiSelectPerc' datatype='real' default-format='p0%' name='[Calculation_1320891744778874888]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Pivot Field Values])/COUNTD([Organization])' />
+      </column>
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column caption='Questions' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Responses' datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Questions (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Pivot Field Names]' new-bin='true'>
+          <bin default-name='false' value='&quot;Q36&quot;'>
+            <value>&quot;Q36 A&quot;</value>
+            <value>&quot;Q36 B&quot;</value>
+            <value>&quot;Q36 C&quot;</value>
+            <value>&quot;Q36 D&quot;</value>
+            <value>&quot;Q36 E&quot;</value>
+            <value>&quot;Q36 F&quot;</value>
+            <value>&quot;Q36 G&quot;</value>
+            <value>&quot;Q36 H&quot;</value>
+            <value>&quot;Q36 I&quot;</value>
+            <value>&quot;Q36 J&quot;</value>
+            <value>&quot;Q36 K&quot;</value>
+            <value>&quot;Q36 L&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q37&quot;'>
+            <value>&quot;Q37 A&quot;</value>
+            <value>&quot;Q37 B&quot;</value>
+            <value>&quot;Q37 C&quot;</value>
+            <value>&quot;Q37 D&quot;</value>
+            <value>&quot;Q37 E&quot;</value>
+            <value>&quot;Q37 F&quot;</value>
+            <value>&quot;Q37 G&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q38&quot;'>
+            <value>&quot;Q38 A&quot;</value>
+            <value>&quot;Q38 B&quot;</value>
+            <value>&quot;Q38 C&quot;</value>
+            <value>&quot;Q38 D&quot;</value>
+            <value>&quot;Q38 E&quot;</value>
+            <value>&quot;Q38 F&quot;</value>
+            <value>&quot;Q38 H&quot;</value>
+            <value>&quot;Q38 I&quot;</value>
+            <value>&quot;Q38 Other&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q46&quot;'>
+            <value>&quot;Q46 A&quot;</value>
+            <value>&quot;Q46 B&quot;</value>
+            <value>&quot;Q46 C&quot;</value>
+            <value>&quot;Q46 D&quot;</value>
+            <value>&quot;Q46 F&quot;</value>
+            <value>&quot;Q46 Other&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q48&quot;'>
+            <value>&quot;Q48 A&quot;</value>
+            <value>&quot;Q48 B&quot;</value>
+            <value>&quot;Q48 C&quot;</value>
+            <value>&quot;Q48 D&quot;</value>
+            <value>&quot;Q48 F&quot;</value>
+            <value>&quot;Q48 Other&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q49&quot;'>
+            <value>&quot;Q49 A&quot;</value>
+            <value>&quot;Q49 B&quot;</value>
+            <value>&quot;Q49 C&quot;</value>
+            <value>&quot;Q49 D&quot;</value>
+            <value>&quot;Q49 Other&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q50&quot;'>
+            <value>&quot;Q50 A&quot;</value>
+            <value>&quot;Q50 B&quot;</value>
+            <value>&quot;Q50 C&quot;</value>
+            <value>&quot;Q50 D&quot;</value>
+            <value>&quot;Q50 E&quot;</value>
+            <value>&quot;Q50 Other&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q56&quot;'>
+            <value>&quot;Q56 A&quot;</value>
+            <value>&quot;Q56 B&quot;</value>
+            <value>&quot;Q56 C&quot;</value>
+            <value>&quot;Q56 D&quot;</value>
+            <value>&quot;Q56 E&quot;</value>
+            <value>&quot;Q56 F&quot;</value>
+            <value>&quot;Q56 G&quot;</value>
+            <value>&quot;Q56 H&quot;</value>
+            <value>&quot;Q56 I&quot;</value>
+            <value>&quot;Q56 J&quot;</value>
+            <value>&quot;Q56 K&quot;</value>
+            <value>&quot;Q56 L&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Q57&quot;'>
+            <value>&quot;Q57 A&quot;</value>
+            <value>&quot;Q57 B&quot;</value>
+            <value>&quot;Q57 C&quot;</value>
+            <value>&quot;Q57 D&quot;</value>
+            <value>&quot;Q57 E&quot;</value>
+            <value>&quot;Q57 F&quot;</value>
+            <value>&quot;Q57 G&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='inclusion_clean_final.csv' datatype='table' name='[__tableau_internal_object_id__].[inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6]' role='measure' type='quantitative' />
+      <column caption='Benchmark Group' datatype='string' name='[benchmark_group]' role='dimension' type='nominal' />
+      <column caption='Number Of Employees' datatype='string' name='[number_of_employees]' role='dimension' type='nominal' />
+      <column caption='Number Of Years' datatype='string' name='[number_of_years]' role='dimension' type='nominal' />
+      <column caption='Workforce' datatype='string' name='[workforce]' role='dimension' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Pivot Field Values:nk]' type='palette'>
+            <map to='#767f8b'>
+              <bucket>&quot;In process of implementing&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;None&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Semi-annually&quot;</bucket>
+            </map>
+            <map to='#d8a48c'>
+              <bucket>&quot;Annually&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Pivot Field Names:nk]' palette='seattle_grays_10_0' type='palette'>
+            <map to='#5c6068'>
+              <bucket>&quot;Q34&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q36 D&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q36 I&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q37 B&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q37 G&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q38 E&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q39&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q44&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q46 D&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q48 B&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q49 A&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q50 A&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q50 Other&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q55&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q56 E&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q56 J&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q57 C&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q58&quot;</bucket>
+            </map>
+            <map to='#5c6068'>
+              <bucket>&quot;Q63&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q32&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q36 B&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q36 G&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q36 L&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q37 E&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q38 C&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q38 I&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q42&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q46 B&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q47&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q48 F&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q49 D&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q50 D&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q53&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q56 C&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q56 H&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q57 A&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q57 F&quot;</bucket>
+            </map>
+            <map to='#767f8b'>
+              <bucket>&quot;Q61&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q36 A&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q36 F&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q36 K&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q37 D&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q38 B&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q38 H&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q41&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q46 A&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q46 Other&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q48 D&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q49 C&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q50 C&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q52&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q56 B&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q56 G&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q56 L&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q57 E&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q60&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Q65&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q33&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q36 C&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q36 H&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q37 A&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q37 F&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q38 D&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q38 Other&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q43&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q46 C&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q48 A&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q48 Other&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q49 Other&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q50 E&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q54&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q56 D&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q56 I&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q57 B&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q57 G&quot;</bucket>
+            </map>
+            <map to='#b3b7b8'>
+              <bucket>&quot;Q62&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q35&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q36 E&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q36 J&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q37 C&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q38 A&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q38 F&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q40&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q45&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q46 F&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q48 C&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q49 B&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q50 B&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q51&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q56 A&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q56 F&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q56 K&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q57 D&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q59&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Q64&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Organization' />
+        <field-sort-custom-order field='benchmark_group' />
+        <field-sort-custom-order field='number_of_employees' />
+        <field-sort-custom-order field='number_of_years' />
+        <field-sort-custom-order field='workforce' />
+        <field-sort-custom-order field='Pivot Field Names' />
+        <field-sort-custom-order field='Pivot Field Values' />
+        <field-sort-custom-order field='Calculation_1320891744770813952' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='inclusion_clean_final.csv' id='inclusion_clean_final.csv_FC15C0F62EC54781A61D77A4A1D4F1B6'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Pivot Field Names' />
+                  <column datatype='string' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[Q32]' />
+                  <value name='[Q33]' />
+                  <value name='[Q34]' />
+                  <value name='[Q35]' />
+                  <value name='[Q36 A]' />
+                  <value name='[Q36 B]' />
+                  <value name='[Q36 C]' />
+                  <value name='[Q36 D]' />
+                  <value name='[Q36 E]' />
+                  <value name='[Q36 F]' />
+                  <value name='[Q36 G]' />
+                  <value name='[Q36 H]' />
+                  <value name='[Q36 I]' />
+                  <value name='[Q36 J]' />
+                  <value name='[Q36 K]' />
+                  <value name='[Q36 L]' />
+                  <value name='[Q37 A]' />
+                  <value name='[Q37 B]' />
+                  <value name='[Q37 C]' />
+                  <value name='[Q37 D]' />
+                  <value name='[Q37 E]' />
+                  <value name='[Q37 F]' />
+                  <value name='[Q37 G]' />
+                  <value name='[Q38 A]' />
+                  <value name='[Q38 B]' />
+                  <value name='[Q38 C]' />
+                  <value name='[Q38 D]' />
+                  <value name='[Q38 E]' />
+                  <value name='[Q38 F]' />
+                  <value name='[Q38 H]' />
+                  <value name='[Q38 I]' />
+                  <value name='[Q38 Other]' />
+                  <value name='[Q39]' />
+                  <value name='[Q40]' />
+                  <value name='[Q41]' />
+                  <value name='[Q42]' />
+                  <value name='[Q43]' />
+                  <value name='[Q44]' />
+                  <value name='[Q45]' />
+                  <value name='[Q46 A]' />
+                  <value name='[Q46 B]' />
+                  <value name='[Q46 C]' />
+                  <value name='[Q46 D]' />
+                  <value name='[Q46 F]' />
+                  <value name='[Q46 Other]' />
+                  <value name='[Q47]' />
+                  <value name='[Q48 A]' />
+                  <value name='[Q48 B]' />
+                  <value name='[Q48 C]' />
+                  <value name='[Q48 D]' />
+                  <value name='[Q48 F]' />
+                  <value name='[Q48 Other]' />
+                  <value name='[Q49 A]' />
+                  <value name='[Q49 B]' />
+                  <value name='[Q49 C]' />
+                  <value name='[Q49 D]' />
+                  <value name='[Q49 Other]' />
+                  <value name='[Q50 A]' />
+                  <value name='[Q50 B]' />
+                  <value name='[Q50 C]' />
+                  <value name='[Q50 D]' />
+                  <value name='[Q50 E]' />
+                  <value name='[Q50 Other]' />
+                  <value name='[Q51]' />
+                  <value name='[Q52]' />
+                  <value name='[Q53]' />
+                  <value name='[Q54]' />
+                  <value name='[Q55]' />
+                  <value name='[Q56 A]' />
+                  <value name='[Q56 B]' />
+                  <value name='[Q56 C]' />
+                  <value name='[Q56 D]' />
+                  <value name='[Q56 E]' />
+                  <value name='[Q56 F]' />
+                  <value name='[Q56 G]' />
+                  <value name='[Q56 H]' />
+                  <value name='[Q56 I]' />
+                  <value name='[Q56 J]' />
+                  <value name='[Q56 K]' />
+                  <value name='[Q56 L]' />
+                  <value name='[Q57 A]' />
+                  <value name='[Q57 B]' />
+                  <value name='[Q57 C]' />
+                  <value name='[Q57 D]' />
+                  <value name='[Q57 E]' />
+                  <value name='[Q57 F]' />
+                  <value name='[Q57 G]' />
+                  <value name='[Q58]' />
+                  <value name='[Q59]' />
+                  <value name='[Q60]' />
+                  <value name='[Q61]' />
+                  <value name='[Q62]' />
+                  <value name='[Q63]' />
+                  <value name='[Q64]' />
+                  <value name='[Q65]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[inclusion_clean_final.csv].[Q32]' />
+                    <field name='[inclusion_clean_final.csv].[Q33]' />
+                    <field name='[inclusion_clean_final.csv].[Q34]' />
+                    <field name='[inclusion_clean_final.csv].[Q35]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_G]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_H]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_I]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_J]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_K]' />
+                    <field name='[inclusion_clean_final.csv].[Q36_L]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q37_G]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_H]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_I]' />
+                    <field name='[inclusion_clean_final.csv].[Q38_Other]' />
+                    <field name='[inclusion_clean_final.csv].[Q39]' />
+                    <field name='[inclusion_clean_final.csv].[Q40]' />
+                    <field name='[inclusion_clean_final.csv].[Q41]' />
+                    <field name='[inclusion_clean_final.csv].[Q42]' />
+                    <field name='[inclusion_clean_final.csv].[Q43]' />
+                    <field name='[inclusion_clean_final.csv].[Q44]' />
+                    <field name='[inclusion_clean_final.csv].[Q45]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q46_Other]' />
+                    <field name='[inclusion_clean_final.csv].[Q47]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q48_Other]' />
+                    <field name='[inclusion_clean_final.csv].[Q49_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q49_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q49_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q49_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q49_Other]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q50_Other]' />
+                    <field name='[inclusion_clean_final.csv].[Q51]' />
+                    <field name='[inclusion_clean_final.csv].[Q52]' />
+                    <field name='[inclusion_clean_final.csv].[Q53]' />
+                    <field name='[inclusion_clean_final.csv].[Q54]' />
+                    <field name='[inclusion_clean_final.csv].[Q55]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_G]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_H]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_I]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_J]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_K]' />
+                    <field name='[inclusion_clean_final.csv].[Q56_L]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_A]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_B]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_C]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_D]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_E]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_F]' />
+                    <field name='[inclusion_clean_final.csv].[Q57_G]' />
+                    <field name='[inclusion_clean_final.csv].[Q58]' />
+                    <field name='[inclusion_clean_final.csv].[Q59]' />
+                    <field name='[inclusion_clean_final.csv].[Q60]' />
+                    <field name='[inclusion_clean_final.csv].[Q61]' />
+                    <field name='[inclusion_clean_final.csv].[Q62]' />
+                    <field name='[inclusion_clean_final.csv].[Q63]' />
+                    <field name='[inclusion_clean_final.csv].[Q64]' />
+                    <field name='[inclusion_clean_final.csv].[Q65]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.0uzunlw1cmvvb3151ajlw05qru6d' name='inclusion_clean_final.csv' table='[inclusion_clean_final#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='F1' ordinal='0' />
+                    <column datatype='string' name='Q32' ordinal='1' />
+                    <column datatype='integer' name='Q33' ordinal='2' />
+                    <column datatype='string' name='Q34' ordinal='3' />
+                    <column datatype='string' name='Q35' ordinal='4' />
+                    <column datatype='string' name='Q36_A' ordinal='5' />
+                    <column datatype='string' name='Q36_B' ordinal='6' />
+                    <column datatype='string' name='Q36_C' ordinal='7' />
+                    <column datatype='string' name='Q36_D' ordinal='8' />
+                    <column datatype='string' name='Q36_E' ordinal='9' />
+                    <column datatype='string' name='Q36_F' ordinal='10' />
+                    <column datatype='string' name='Q36_G' ordinal='11' />
+                    <column datatype='string' name='Q36_H' ordinal='12' />
+                    <column datatype='string' name='Q36_I' ordinal='13' />
+                    <column datatype='string' name='Q36_J' ordinal='14' />
+                    <column datatype='string' name='Q37_A' ordinal='15' />
+                    <column datatype='string' name='Q37_B' ordinal='16' />
+                    <column datatype='string' name='Q37_C' ordinal='17' />
+                    <column datatype='string' name='Q37_D' ordinal='18' />
+                    <column datatype='string' name='Q37_E' ordinal='19' />
+                    <column datatype='string' name='Q38_A' ordinal='20' />
+                    <column datatype='string' name='Q38_B' ordinal='21' />
+                    <column datatype='string' name='Q38_C' ordinal='22' />
+                    <column datatype='string' name='Q38_D' ordinal='23' />
+                    <column datatype='string' name='Q38_E' ordinal='24' />
+                    <column datatype='string' name='Q38_F' ordinal='25' />
+                    <column datatype='string' name='Q38_Other' ordinal='26' />
+                    <column datatype='string' name='Q39' ordinal='27' />
+                    <column datatype='string' name='Q40' ordinal='28' />
+                    <column datatype='integer' name='Q41' ordinal='29' />
+                    <column datatype='string' name='Q42' ordinal='30' />
+                    <column datatype='integer' name='Q43' ordinal='31' />
+                    <column datatype='integer' name='Q44' ordinal='32' />
+                    <column datatype='integer' name='Q45' ordinal='33' />
+                    <column datatype='string' name='Q46_A' ordinal='34' />
+                    <column datatype='string' name='Q46_B' ordinal='35' />
+                    <column datatype='string' name='Q46_C' ordinal='36' />
+                    <column datatype='string' name='Q46_D' ordinal='37' />
+                    <column datatype='string' name='Q46_Other' ordinal='38' />
+                    <column datatype='real' name='Q47' ordinal='39' />
+                    <column datatype='string' name='Q48_A' ordinal='40' />
+                    <column datatype='string' name='Q48_B' ordinal='41' />
+                    <column datatype='string' name='Q48_C' ordinal='42' />
+                    <column datatype='string' name='Q48_D' ordinal='43' />
+                    <column datatype='string' name='Q48_Other' ordinal='44' />
+                    <column datatype='string' name='Q49_A' ordinal='45' />
+                    <column datatype='string' name='Q49_B' ordinal='46' />
+                    <column datatype='string' name='Q49_C' ordinal='47' />
+                    <column datatype='string' name='Q49_D' ordinal='48' />
+                    <column datatype='string' name='Q49_Other' ordinal='49' />
+                    <column datatype='string' name='Q50_A' ordinal='50' />
+                    <column datatype='string' name='Q50_B' ordinal='51' />
+                    <column datatype='string' name='Q50_C' ordinal='52' />
+                    <column datatype='string' name='Q50_D' ordinal='53' />
+                    <column datatype='string' name='Q50_E' ordinal='54' />
+                    <column datatype='string' name='Q50_Other' ordinal='55' />
+                    <column datatype='string' name='Q51' ordinal='56' />
+                    <column datatype='string' name='Q52' ordinal='57' />
+                    <column datatype='string' name='Q53' ordinal='58' />
+                    <column datatype='real' name='Q54' ordinal='59' />
+                    <column datatype='string' name='Q55' ordinal='60' />
+                    <column datatype='string' name='Q56_A' ordinal='61' />
+                    <column datatype='string' name='Q56_B' ordinal='62' />
+                    <column datatype='string' name='Q56_C' ordinal='63' />
+                    <column datatype='string' name='Q56_D' ordinal='64' />
+                    <column datatype='string' name='Q56_E' ordinal='65' />
+                    <column datatype='string' name='Q56_F' ordinal='66' />
+                    <column datatype='string' name='Q56_G' ordinal='67' />
+                    <column datatype='string' name='Q56_H' ordinal='68' />
+                    <column datatype='string' name='Q56_I' ordinal='69' />
+                    <column datatype='string' name='Q56_J' ordinal='70' />
+                    <column datatype='string' name='Q56_K' ordinal='71' />
+                    <column datatype='string' name='Q57_A' ordinal='72' />
+                    <column datatype='string' name='Q57_B' ordinal='73' />
+                    <column datatype='string' name='Q57_C' ordinal='74' />
+                    <column datatype='string' name='Q57_D' ordinal='75' />
+                    <column datatype='string' name='Q57_E' ordinal='76' />
+                    <column datatype='string' name='Q57_F' ordinal='77' />
+                    <column datatype='string' name='Q58' ordinal='78' />
+                    <column datatype='real' name='Q59' ordinal='79' />
+                    <column datatype='real' name='Q60' ordinal='80' />
+                    <column datatype='integer' name='Q61' ordinal='81' />
+                    <column datatype='string' name='Q62' ordinal='82' />
+                    <column datatype='string' name='Q63' ordinal='83' />
+                    <column datatype='string' name='Q64' ordinal='84' />
+                    <column datatype='string' name='Q65' ordinal='85' />
+                    <column datatype='string' name='Organization' ordinal='86' />
+                    <column datatype='string' name='benchmark_group' ordinal='87' />
+                    <column datatype='string' name='number_of_employees' ordinal='88' />
+                    <column datatype='string' name='number_of_years' ordinal='89' />
+                    <column datatype='string' name='workforce' ordinal='90' />
+                    <column datatype='string' name='Q36_K' ordinal='91' />
+                    <column datatype='string' name='Q36_L' ordinal='92' />
+                    <column datatype='string' name='Q37_F' ordinal='93' />
+                    <column datatype='string' name='Q37_G' ordinal='94' />
+                    <column datatype='string' name='Q38_H' ordinal='95' />
+                    <column datatype='string' name='Q38_I' ordinal='96' />
+                    <column datatype='string' name='Q46_F' ordinal='97' />
+                    <column datatype='string' name='Q48_F' ordinal='98' />
+                    <column datatype='string' name='Q56_L' ordinal='99' />
+                    <column datatype='string' name='Q57_G' ordinal='100' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Q32'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Q32 - Inclusion, Culture, Training &amp; Community: How frequently does your workplace conduct culture survey/assessment that captures experiences impacted by gender identity? [Single Choice]</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inclusion_clean_final' name='federated.11bte4p14cig9y11xu4fg09l81mz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11bte4p14cig9y11xu4fg09l81mz'>
+            <column caption='SingleChoicePerc' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Pivot Field Values]) / TOTAL(COUNT([Pivot Field Values]))'>
+                <table-calc ordering-type='Columns' />
+              </calculation>
+            </column>
+            <column caption='COUNT([Responses]) / TOTAL(COUNT([Responses]))' datatype='real' name='[Calculation_1320891744772694018]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='COUNT([Pivot Field Values]) / TOTAL(COUNT([Pivot Field Values]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Questions' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Responses' datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Questions (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Pivot Field Names]' new-bin='true'>
+                <bin default-name='false' value='&quot;Q36&quot;'>
+                  <value>&quot;Q36 A&quot;</value>
+                  <value>&quot;Q36 B&quot;</value>
+                  <value>&quot;Q36 C&quot;</value>
+                  <value>&quot;Q36 D&quot;</value>
+                  <value>&quot;Q36 E&quot;</value>
+                  <value>&quot;Q36 F&quot;</value>
+                  <value>&quot;Q36 G&quot;</value>
+                  <value>&quot;Q36 H&quot;</value>
+                  <value>&quot;Q36 I&quot;</value>
+                  <value>&quot;Q36 J&quot;</value>
+                  <value>&quot;Q36 K&quot;</value>
+                  <value>&quot;Q36 L&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q37&quot;'>
+                  <value>&quot;Q37 A&quot;</value>
+                  <value>&quot;Q37 B&quot;</value>
+                  <value>&quot;Q37 C&quot;</value>
+                  <value>&quot;Q37 D&quot;</value>
+                  <value>&quot;Q37 E&quot;</value>
+                  <value>&quot;Q37 F&quot;</value>
+                  <value>&quot;Q37 G&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q38&quot;'>
+                  <value>&quot;Q38 A&quot;</value>
+                  <value>&quot;Q38 B&quot;</value>
+                  <value>&quot;Q38 C&quot;</value>
+                  <value>&quot;Q38 D&quot;</value>
+                  <value>&quot;Q38 E&quot;</value>
+                  <value>&quot;Q38 F&quot;</value>
+                  <value>&quot;Q38 H&quot;</value>
+                  <value>&quot;Q38 I&quot;</value>
+                  <value>&quot;Q38 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q46&quot;'>
+                  <value>&quot;Q46 A&quot;</value>
+                  <value>&quot;Q46 B&quot;</value>
+                  <value>&quot;Q46 C&quot;</value>
+                  <value>&quot;Q46 D&quot;</value>
+                  <value>&quot;Q46 F&quot;</value>
+                  <value>&quot;Q46 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q48&quot;'>
+                  <value>&quot;Q48 A&quot;</value>
+                  <value>&quot;Q48 B&quot;</value>
+                  <value>&quot;Q48 C&quot;</value>
+                  <value>&quot;Q48 D&quot;</value>
+                  <value>&quot;Q48 F&quot;</value>
+                  <value>&quot;Q48 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q49&quot;'>
+                  <value>&quot;Q49 A&quot;</value>
+                  <value>&quot;Q49 B&quot;</value>
+                  <value>&quot;Q49 C&quot;</value>
+                  <value>&quot;Q49 D&quot;</value>
+                  <value>&quot;Q49 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q50&quot;'>
+                  <value>&quot;Q50 A&quot;</value>
+                  <value>&quot;Q50 B&quot;</value>
+                  <value>&quot;Q50 C&quot;</value>
+                  <value>&quot;Q50 D&quot;</value>
+                  <value>&quot;Q50 E&quot;</value>
+                  <value>&quot;Q50 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q56&quot;'>
+                  <value>&quot;Q56 A&quot;</value>
+                  <value>&quot;Q56 B&quot;</value>
+                  <value>&quot;Q56 C&quot;</value>
+                  <value>&quot;Q56 D&quot;</value>
+                  <value>&quot;Q56 E&quot;</value>
+                  <value>&quot;Q56 F&quot;</value>
+                  <value>&quot;Q56 G&quot;</value>
+                  <value>&quot;Q56 H&quot;</value>
+                  <value>&quot;Q56 I&quot;</value>
+                  <value>&quot;Q56 J&quot;</value>
+                  <value>&quot;Q56 K&quot;</value>
+                  <value>&quot;Q56 L&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q57&quot;'>
+                  <value>&quot;Q57 A&quot;</value>
+                  <value>&quot;Q57 B&quot;</value>
+                  <value>&quot;Q57 C&quot;</value>
+                  <value>&quot;Q57 D&quot;</value>
+                  <value>&quot;Q57 E&quot;</value>
+                  <value>&quot;Q57 F&quot;</value>
+                  <value>&quot;Q57 G&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation1]' derivation='User' name='[usr:Calculation1:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+            <column-instance column='[Calculation_1320891744772694018]' derivation='User' name='[usr:Calculation_1320891744772694018:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]'>
+            <groupfilter function='member' level='[Questions (group)]' member='&quot;Q32&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation1:qk]' field-type='quantitative' max='1.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation_1320891744772694018:qk]' value='p0.0%' />
+            <format attr='font-weight' field='[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation_1320891744772694018:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]' value='208' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]' />
+              <text column='[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation_1320891744772694018:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]</rows>
+        <cols>[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation1:qk]</cols>
+      </table>
+      <simple-id uuid='{54EB4CD3-D702-48AB-8EBD-DD9F8E879B68}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='inclusion_clean_final' name='federated.11bte4p14cig9y11xu4fg09l81mz' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Total_Response_Count' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='24.'>
+              <calculation class='tableau' formula='24.' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.11bte4p14cig9y11xu4fg09l81mz'>
+            <column caption='COUNT([Responses])/[Total_Response_Count]' datatype='real' name='[Calculation_1320891744781762573]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='COUNT([Pivot Field Values])/[Parameters].[Parameter 1]' />
+            </column>
+            <column caption='Questions' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Responses' datatype='string' name='[Pivot Field Values]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Questions (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Pivot Field Names]' new-bin='true'>
+                <bin default-name='false' value='&quot;Q36&quot;'>
+                  <value>&quot;Q36 A&quot;</value>
+                  <value>&quot;Q36 B&quot;</value>
+                  <value>&quot;Q36 C&quot;</value>
+                  <value>&quot;Q36 D&quot;</value>
+                  <value>&quot;Q36 E&quot;</value>
+                  <value>&quot;Q36 F&quot;</value>
+                  <value>&quot;Q36 G&quot;</value>
+                  <value>&quot;Q36 H&quot;</value>
+                  <value>&quot;Q36 I&quot;</value>
+                  <value>&quot;Q36 J&quot;</value>
+                  <value>&quot;Q36 K&quot;</value>
+                  <value>&quot;Q36 L&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q37&quot;'>
+                  <value>&quot;Q37 A&quot;</value>
+                  <value>&quot;Q37 B&quot;</value>
+                  <value>&quot;Q37 C&quot;</value>
+                  <value>&quot;Q37 D&quot;</value>
+                  <value>&quot;Q37 E&quot;</value>
+                  <value>&quot;Q37 F&quot;</value>
+                  <value>&quot;Q37 G&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q38&quot;'>
+                  <value>&quot;Q38 A&quot;</value>
+                  <value>&quot;Q38 B&quot;</value>
+                  <value>&quot;Q38 C&quot;</value>
+                  <value>&quot;Q38 D&quot;</value>
+                  <value>&quot;Q38 E&quot;</value>
+                  <value>&quot;Q38 F&quot;</value>
+                  <value>&quot;Q38 H&quot;</value>
+                  <value>&quot;Q38 I&quot;</value>
+                  <value>&quot;Q38 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q46&quot;'>
+                  <value>&quot;Q46 A&quot;</value>
+                  <value>&quot;Q46 B&quot;</value>
+                  <value>&quot;Q46 C&quot;</value>
+                  <value>&quot;Q46 D&quot;</value>
+                  <value>&quot;Q46 F&quot;</value>
+                  <value>&quot;Q46 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q48&quot;'>
+                  <value>&quot;Q48 A&quot;</value>
+                  <value>&quot;Q48 B&quot;</value>
+                  <value>&quot;Q48 C&quot;</value>
+                  <value>&quot;Q48 D&quot;</value>
+                  <value>&quot;Q48 F&quot;</value>
+                  <value>&quot;Q48 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q49&quot;'>
+                  <value>&quot;Q49 A&quot;</value>
+                  <value>&quot;Q49 B&quot;</value>
+                  <value>&quot;Q49 C&quot;</value>
+                  <value>&quot;Q49 D&quot;</value>
+                  <value>&quot;Q49 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q50&quot;'>
+                  <value>&quot;Q50 A&quot;</value>
+                  <value>&quot;Q50 B&quot;</value>
+                  <value>&quot;Q50 C&quot;</value>
+                  <value>&quot;Q50 D&quot;</value>
+                  <value>&quot;Q50 E&quot;</value>
+                  <value>&quot;Q50 Other&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q56&quot;'>
+                  <value>&quot;Q56 A&quot;</value>
+                  <value>&quot;Q56 B&quot;</value>
+                  <value>&quot;Q56 C&quot;</value>
+                  <value>&quot;Q56 D&quot;</value>
+                  <value>&quot;Q56 E&quot;</value>
+                  <value>&quot;Q56 F&quot;</value>
+                  <value>&quot;Q56 G&quot;</value>
+                  <value>&quot;Q56 H&quot;</value>
+                  <value>&quot;Q56 I&quot;</value>
+                  <value>&quot;Q56 J&quot;</value>
+                  <value>&quot;Q56 K&quot;</value>
+                  <value>&quot;Q56 L&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Q57&quot;'>
+                  <value>&quot;Q57 A&quot;</value>
+                  <value>&quot;Q57 B&quot;</value>
+                  <value>&quot;Q57 C&quot;</value>
+                  <value>&quot;Q57 D&quot;</value>
+                  <value>&quot;Q57 E&quot;</value>
+                  <value>&quot;Q57 F&quot;</value>
+                  <value>&quot;Q57 G&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[Pivot Field Values]' derivation='None' name='[none:Pivot Field Values:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1320891744781762573]' derivation='User' name='[usr:Calculation_1320891744781762573:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]'>
+            <groupfilter function='member' level='[Questions (group)]' member='&quot;Q36&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]' value='432' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]</rows>
+        <cols>[federated.11bte4p14cig9y11xu4fg09l81mz].[usr:Calculation_1320891744781762573:qk]</cols>
+      </table>
+      <simple-id uuid='{5449CCEA-862A-4CA1-A3D0-8319E0ABBEB2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Q32'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]</field>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{334762E5-61B8-44D0-A57D-8F9D32FD6E8E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[Questions (group)]</field>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Calculation_1320891744781516811:qk]</field>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Names:nk]</field>
+            <field>[federated.11bte4p14cig9y11xu4fg09l81mz].[none:Pivot Field Values:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CAD00E0F-B5A1-4C3C-8A36-64D476FF41CA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='270' name='Q32' width='384'>
+      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
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 2' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dd3xUVf4//tdMJm3Se0JCCiEICQHpIEgREIQVdBcQVARcdxEQkA/NAgK2
+      RXRxBQXBpaMUQZZepbfQBAJSEkgvkz7pk5m5798ffDM/soGALu6C9/V8PPJ4JHPvPffcOzf3
+      dc+5585oRERARESqo/1fV4CIiP43GABERCrFACAiUikGABGRSjEAiIhUigFARKRSDAAiIpVi
+      ABARqRQDgIhIpRgAREQqxQAgIlIpBgARkUoxAIiIVIoBQESkUgwAIiKVYgAQEakUA4CISKUY
+      AEREKsUAICJSKQYAEZFKMQCIiFSKAUBEpFIMACIilWIAEBGpFAOAiEilGABERCrFACAiUikG
+      ABGRSjEAiIhUigFARKRSDAAiIpViABARqRQDgIhIpRgAREQqxQAgIlIpBgARkUoxAIiIVIoB
+      QESkUgwAIiKVYgAQEakUA4CISKUYAEREKsUAICJSKQYAEZFKMQCIiFSKAUBEpFIMACIilWIA
+      EBGpFAOAiEilGABERCrFACAiUikGABGRSjEAiIhUigFARKRSDAAiIpViABARqRQDgIhIpRgA
+      REQqxQAgIlIpBgARkUoxAIiIVIoBQESkUgwAIiKVYgAQEakUA4CISKUYAEREKsUAICJSKQYA
+      EZFKMQCIiFSKAUBEpFIMACIilWIAEBGpFAOAiEilGABERCrFACAiUikGABGRSjEAiIhUigFA
+      RKRSDAAioodcZmYmUlNTbT9ZWVkwGo1QFMU2T0VFBT777DN06NABR44cua9ydb9VhYmI6MF4
+      8803kZKSAgDQaDTw8PBAaGgoevfujT/84Q9wdHSE1WrFzZs3cfLkSeTn599XuQwAIqKH3IUL
+      F5CUlIT27dvDwcEBFy5cwJ49e7Br1y5UVVVhyJAhv6pcdgERET0C3NzcMHnyZGzevBnHjh1D
+      //79kZmZiW3btqGsrKzOZUUEFosF5eXlKCsrg9VqhYiwBUBE9CjQaDRwdHSEi4sLIiMj0aVL
+      F+zevRsmkwlmsxk63Z1P5wUFBTh69CgSEhKQlZUFq9WKBg0aoE+fPgwAIqJHTVlZGa5cuQKt
+      Vovo6Gi4ubmhoqLijvMeP34cI0eORHFxMTw9PWEwGGBnZ4dDhw6xC4iI6FFgtVpx48YNbN26
+      FaNGjcLWrVvRq1cvjBo1CnZ2dnddztPTE1OmTMH58+dx8eJFbN68GeHh4di/fz9bAEREj4Ki
+      oiJMnDgRJpMJiqIgJiYGo0aNQkBAQJ3LderUCZ06dbL93aFDBzRt2hR79uxhABARPQrc3Nww
+      adIkhIWFYefOndi9ezfeeustTJs2Df37969z2fLycpw9exaXL19GRkYGrl69CoDDQImIHgkO
+      Dg5o3749evTogeeffx5ff/01Zs6ciU8++QQNGzZERERErWVEBJcuXcLIkSORkpICFxcXeHp6
+      oqioCACHgRIRPVK0Wi3c3d3x5z//GW5ubrh69SqSkpLuOG91t1FCQgL++te/YtOmTdi3bx+6
+      det2q6z/ZsWJiOjByMnJgdVqhUajgUajueM8165dw/nz5xEVFYUhQ4YgJiYGWq0WiqLwOQAi
+      okeF2WxGfHw8RAQ3btzAypUrUVRUhNatWyM8PPyOy7i6usLBwQGJiYnYsmULnnrqKWzcuBH7
+      9++HxWJhABARPew0Gg2Ki4sxadIkAIC9vT3c3d3RpUsXjBs3DjExMSgvL6+1XKNGjfDcc89h
+      2bJlmDx5Muzt7RETE4NnnnkGW7ZsgUZE5L+9MUREdP82b96M4uJi29/29vZwc3ND48aNERER
+      Aa1WC7PZjHPnzuH69evo2rUr6tevDwAwGAzYtWsXbt68iaCgILRt2xYRERHYtWsXA4CI6PdM
+      RKAoyq0uH53O9tCYoigMACIiteIoICIilWIAEBGpFAOAiEilGABERCrFACAiUikGABGRSjEA
+      iIhUigFARKRSDAAiIpViABARqRQDgIhIpRgAREQqxQAgIlIpBgARkUoxAIiIVIoBQESkUgwA
+      IiKVYgAQEakUA4CISKUYAEREKsUAICJSKQYAEZFKMQCIiFSKAUBEpFIMACIilWIAEBGpFAOA
+      iEilGABERCrFACAiUikGABGRSjEAiIhUigFARKRSDAAiIpViABARqRQDgIhIpRgAREQqxQAg
+      IlIpBgARkUoxAIiIVIoBQESkUgwAIiKVYgAQEakUA4CISKUYAEREKsUAICJSKQYAEZFKMQCI
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
